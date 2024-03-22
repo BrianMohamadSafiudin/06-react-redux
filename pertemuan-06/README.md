@@ -49,8 +49,26 @@ export default function Home() {
 
 #### Coba kita jalankan project next.js kita, dan laporkan apa yang terjadi?
 
-![Screenshot P1](assets-report/praktikum1.jpg)
+![GIF P1](assets-report/praktikum1.gif)
 
-- muncul tampilan bootstrap dengan button "Coba Model Bootstrap", tulisan yay... dan Halo semua, kita sedang menggunakan bootstrap di Next.js.
+- muncul tampilan dengan button "Coba Model Bootstrap", lalu muncul tulisan "yay... dan Halo semua, kita sedang menggunakan bootstrap di Next.js".
+
+---
+
+# Praktikum 2: Contoh Login dengan Redux
+
+## Soal 1
+#### Coba akses http://localhost:3000/login, dan klik tombol login. Kemudian lakukan refresh page berkali-kali (jika perlu restart npm run dev nya). Simpulkan apa yang terjadi ?
+
+![GIF P2](assets-report/praktikum2a.gif)
+
+- Setelah melakukan refresh page berkali-kali, maka akan muncul pesan "Yay, berhasil login !!!" dan apabila logout maka akan muncul pesan "Anda telah logout". Hal ini terjadi karena kita menggunakan Redux untuk menyimpan data login dan logout sehingga data tersebut tidak akan hilang ketika kita melakukan refresh page atau restart npm run dev nya
+
+## Soal 2
+#### Baris 25 dan 30 terdapat method parse(), apa yang terjadi jika kita tidak menggunakan method tersebut?
+
+![GIF P2](assets-report/praktikum2b.gif)
+
+- Jika kita tidak menggunakan method parse(), maka akan muncul tampilan mentahan dari div karena parse digunakan untuk mengubah string menjadi objek.
 
 ---
