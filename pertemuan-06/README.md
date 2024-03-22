@@ -72,3 +72,13 @@ export default function Home() {
 - Jika kita tidak menggunakan method parse(), maka akan muncul tampilan mentahan dari div karena parse digunakan untuk mengubah string menjadi objek.
 
 ---
+
+# Praktikum 3: Membuat Aplikasi Counter Sederhana
+
+#### kita jalankan di browser dengan url localhost:3000/counter, dan amati apa yang terjadi?
+
+![GIF P3](assets-report/praktikum3.gif)
+
+- Muncul tampilan counter sederhana dengan button tambah dan kurang, dan angka counter yang bertambah atau berkurang sesuai dengan button yang ditekan.
+
+---
