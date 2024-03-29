@@ -1,5 +1,5 @@
 # 06-react-redux
-05-react-redux | 2141720133 - Brian Mohamad Safiudin - Pem. Berbasis Framework 2024
+06-react-redux | 2141720133 - Brian Mohamad Safiudin - Pem. Berbasis Framework 2024
 
 |Weeks           |PROJECTS                         |LINKS                        |
 |----------------|---------------------------------|-----------------------------|
